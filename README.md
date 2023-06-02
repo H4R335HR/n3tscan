@@ -20,4 +20,4 @@ Then simply type:
 
 `netscan`
 
-when you want to quickly know your LAN status.
+when you want to quickly know IPs in your LAN.
