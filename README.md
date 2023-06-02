@@ -1,13 +1,15 @@
 # n3tscan
 Faast ping sweep of a /24 network written in Python
 
-Download and run
+Installation:
+1. Download n3tscan.py
+2. Run using python
 
 Usage example: 
 
 `$ python n3tscan.py 192.168.0`
 
-If you use it regularly to scan your LAN add it as an alias in Linux 
+If you use it regularly to scan your LAN, add it as an alias in Linux 
 For eg. if your n/w is 192.168.1.0/24, add this to your .bashrc or .zhrc
 
 `alias netscan='python /path/to/n3tscan.py 192.168.1'`
@@ -16,4 +18,4 @@ Then simply type:
 
 `netscan`
 
-Won't take more than a second.
+when you want to quickly know your LAN status.
