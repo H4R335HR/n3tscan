@@ -1,6 +1,8 @@
 # n3tscan
 Faast ping sweep of a /24 network written in Python
 
+Disclaimer: It will only show IPs that respond to an ICMP echo request or respond to pings.. so mostly Linux machines.
+
 Installation:
 1. Download n3tscan.py
 2. Run using python
