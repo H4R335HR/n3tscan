@@ -1,7 +1,7 @@
 # n3tscan
 Faast ping sweep of a /24 network written in Python
 
-Multi-threaded. Sends all the pings at once. </br>Expect complete results instantly (within 1/4th of a second to be approximate).
+Multi-threaded. Sends all the pings at once. </br>Expect complete results instantly (within 1/4th of a second on Ethernet and within a second on Wifi).
 
 Disclaimer: It will only show IPs that respond to an ICMP echo request aka ping.. so mostly Linux machines.
 
