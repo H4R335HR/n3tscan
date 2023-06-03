@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 def ping_ip(ip):
     # Construct the ping command
-    command = ['ping', '-c', '1', '-W', '1', ip]
+    command = ['ping', '-c', '1', '-W', '0.1', ip]
     
     # Execute the ping command
     try:
