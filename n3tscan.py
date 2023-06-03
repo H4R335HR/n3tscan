@@ -5,9 +5,13 @@ import sys
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
+#Ping Response Time - Change this to 0.1 if you're on Ethernet
+RTIME='0.5'
+#Seriously, get cabled!
+
 def ping_ip(ip):
     # Construct the ping command
-    command = ['ping', '-c', '1', '-W', '0.1', ip]
+    command = ['ping', '-c', '1', '-W', RTIME, ip]
     
     # Execute the ping command
     try:
